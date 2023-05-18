@@ -1,0 +1,8 @@
+.header{display: flex; flex-direction: row; height: 65; justify-content: space-between;}
+.searchy{height: 20px; margin-top: 27px; }
+.menu_img{height: 30px; margin-right: 15px;}
+.yologo{height: 30px;}
+.text{width: 450px; height: 45px; border-radius: 40px; border-color: rgb(180, 180, 180); margin-top: 15px; margin-right: 150px; }
+.grid{padding-top: 40px;}
+.left-section{align-items: center; padding-top: 20px;}
+.right-section{justify-content: space-between; align-items: center; }

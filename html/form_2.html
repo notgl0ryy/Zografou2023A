@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Φόρμα</title>
+</head>
+    <form method="post">
+        <label for="Όνομα">Όνομα*:</label>
+        <input type="text" name="name" id="Όνομα" placeholder="Γράψτε το όνομα σας" autofocus required>
+        <br>
+        <br>
+        <label for="Επώνυμο">Επώνυμο*:</label>
+        <input type="text" name="surname" id="Επώνυμο" placeholder="Γράψτε το επίθετο σας" required>
+        <br>
+        <br>
+        <label for="Ηλικία">Ηλικία</label>
+        <input type="number" name="age" id="Ηλικία" min="18" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Φύλο</legend>
+            <input type="radio" value="Άνδρας" name="sex">
+            <label for="male">Άνδρας</label>
+            <input type="radio" value="Γυναίκα" name="sex">
+            <label for="female">Γυναίκα</label>
+        </fieldset>
+        <br>
+        <br>
+        <label for="ΗΓ">Ημερομηνία Γέννησης</label>
+        <input type="date" name="date" id="ΗΓ">
+        <br>
+        <br>
+        <label for="city">Πόλη</label>
+        <select id="city" name="city">
+            <option value="athens">Αθήνα</option>
+            <option value="thessaloniki">Θεσσαλονίκη</option>
+            <option value="patra">Πάτρα</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Ενδιαφέροντα</legend>
+            <label for="music">Μουσική</label>
+            <input type="checkbox" id="music" name="endiaferonta1" value="Μουσική"> <br>
+            <label for="photography">Φωτογραφία</label>
+            <input type="checkbox" id="photography" name="endiaferonta2" value="Φωτογραφία"> <br>
+            <label for="travel">Ταξίδια</label>
+            <input type="checkbox" id="travel" name="endiaferonta3" value="Ταξίδια">
+        </fieldset>
+
+        <br>
+        <br>    
+        <input type="submit" value="Υποβολή">
+    </form>
+</html>
